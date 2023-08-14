@@ -3,7 +3,7 @@ import Navbar from "./Navbar";
 import "./style.scss";
 const index = () => {
 	return (
-		<header>
+		<header className="bg-white">
 			<div className="container">
 				<HeaderTop />
 				<Navbar />
